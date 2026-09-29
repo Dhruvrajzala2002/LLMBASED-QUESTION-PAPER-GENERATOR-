@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Next.js build output
+.next/
+out/
+build/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+# Uploads & Exports content (keep directory structure via .gitkeep)
+uploads/*
+!uploads/.gitkeep
+exports/*
+!exports/.gitkeep
